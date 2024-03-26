@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#game-container {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
